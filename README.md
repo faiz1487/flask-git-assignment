@@ -3,7 +3,7 @@
 **Student Name:** Faizan Kaishar  
 **Project:** Flask Git & Branching Assignment  
 **Repository Name:** flask-git-assignment  
-**GitHub Repository Link:** https://github.com/faizan-kaishar/flask-git-assignment
+**GitHub Repository Link:**  https://github.com/faiz1487/flask-git-assignment.git 
 
 ---
 
