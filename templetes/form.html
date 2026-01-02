@@ -1,23 +1,8 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Submit Data</title>
-</head>
-<body>
-    <h2>Submit User Data</h2>
-
-    {% if error %}
-        <p style="color:red;">Error: {{ error }}</p>
-    {% endif %}
-
-    <form method="POST">
-        <label>Name:</label><br>
-        <input type="text" name="name" required><br><br>
-
-        <label>Email:</label><br>
-        <input type="email" name="email" required><br><br>
-
-        <button type="submit">Submit</button>
-    </form>
-</body>
-</html>
+<h2>Add To-Do Item</h2>
+<form method="POST" action="/submittodoitem">
+  <input type="text" name="itemName" placeholder="Item Name" required><br><br>
+  <textarea name="itemDescription" placeholder="Item Description" required></textarea><br><br>
+  <button type="submit">Add</button>
+</form>
+<input type="number" name="itemId" placeholder="Item ID"><br><br>
+<input type="text" name="itemUUID" placeholder="Item UUID"><br><br>
